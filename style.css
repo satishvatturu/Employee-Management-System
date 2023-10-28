@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #323244;
+    display: flex;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+    background-color: #91A1BA;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form>input, .form>select {
+    background-color: white;
+}
+
+.form>button {
+    cursor: pointer;
+    background-color: #D7D5D3;
+}
+
+.form>input, .form>select, .form>button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#mutate {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color :#0D659D;
+    color: white;
+    cursor: pointer;
+}
+
+.table-div {
+    display: flex;
+    flex: 4;
+}
+
+.table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table, th, td {
+    padding: 10px 10px;
+    border: 1px solid white;
+    height: 50px;
+}
+
+.form:valid>button {
+    background-color:#0D659D;
+    color: white;
+}
